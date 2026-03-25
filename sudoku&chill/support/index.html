@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Support page for the Sudoku & Chill iOS app."
+  />
+  <title>Support | Sudoku &amp; Chill</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f7f8fc;
+      --surface: #ffffff;
+      --text: #1d2433;
+      --muted: #5d6880;
+      --line: #d9deea;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --shadow: 0 10px 30px rgba(17, 24, 39, 0.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Avenir Next", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 0%, #eaf0ff 0%, transparent 35%),
+        radial-gradient(circle at 85% 10%, #e6fbff 0%, transparent 28%),
+        var(--bg);
+      line-height: 1.65;
+    }
+
+    .container {
+      width: min(900px, calc(100% - 2rem));
+      margin: 2rem auto 3rem;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 2.25rem 1.25rem 1.75rem;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(120deg, #ffffff 0%, #f3f7ff 100%);
+    }
+
+    .eyebrow {
+      margin: 0 0 0.35rem;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.75rem, 3vw, 2.25rem);
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      margin: 0.45rem 0 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .callout {
+      margin-top: 1.2rem;
+      padding: 1rem 1rem 1.05rem;
+      border: 1px solid #bfdbfe;
+      border-radius: 14px;
+      background: linear-gradient(180deg, #f8fbff 0%, var(--accent-soft) 100%);
+    }
+
+    .callout p {
+      margin: 0;
+    }
+
+    .summary {
+      display: grid;
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+
+    .summary-card {
+      padding: 0.9rem 1rem;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.88);
+    }
+
+    .summary-card strong {
+      display: block;
+      margin-bottom: 0.2rem;
+      font-size: 0.96rem;
+    }
+
+    main {
+      padding: 1.5rem 1.25rem 2rem;
+    }
+
+    section + section {
+      margin-top: 1.35rem;
+      padding-top: 1.35rem;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 0.6rem;
+      font-size: 1.08rem;
+    }
+
+    p {
+      margin: 0.45rem 0;
+    }
+
+    ul {
+      margin: 0.55rem 0;
+      padding-left: 1.1rem;
+    }
+
+    li + li {
+      margin-top: 0.35rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .contact-box {
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfdff;
+    }
+
+    @media (min-width: 720px) {
+      header,
+      main {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+      .summary {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <article class="container">
+    <header>
+      <p class="eyebrow">Sudoku &amp; Chill</p>
+      <h1>Support</h1>
+      <p class="subtitle">Last updated: March 24, 2026</p>
+
+      <div class="callout">
+        <p>
+          Need help with Sudoku &amp; Chill? For bug reports, gameplay questions, or general support, contact us at
+          <a href="mailto:sudokuchillsupport@proton.me">sudokuchillsupport@proton.me</a>.
+        </p>
+      </div>
+
+      <div class="summary" aria-label="Support highlights">
+        <div class="summary-card">
+          <strong>Support Email</strong>
+          <span class="muted">sudokuchillsupport@proton.me</span>
+        </div>
+        <div class="summary-card">
+          <strong>App</strong>
+          <span class="muted">Sudoku &amp; Chill for iPhone</span>
+        </div>
+        <div class="summary-card">
+          <strong>Developer</strong>
+          <span class="muted">Juan Manuel Gomez Llanos</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>1. Contact</h2>
+        <div class="contact-box">
+          <p><strong>Email:</strong> <a href="mailto:sudokuchillsupport@proton.me">sudokuchillsupport@proton.me</a></p>
+          <p><strong>Developer:</strong> Juan Manuel Gomez Llanos</p>
+          <p><strong>Support URL:</strong> <a href="https://mansonplus.github.io/sudoku&amp;chill/support/">https://mansonplus.github.io/sudoku&amp;chill/support/</a></p>
+        </div>
+      </section>
+
+      <section>
+        <h2>2. What To Include In A Support Request</h2>
+        <p>To help us troubleshoot faster, include as much of the following as you can:</p>
+        <ul>
+          <li>Your iPhone model and iOS version.</li>
+          <li>The version of Sudoku &amp; Chill you are using.</li>
+          <li>A short description of what happened and the steps to reproduce it.</li>
+          <li>A screenshot or screen recording, if available.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. Common Topics</h2>
+        <ul>
+          <li><strong>Saved progress:</strong> saved games and stats are stored locally on your device.</li>
+          <li><strong>Gameplay questions:</strong> if a hint or puzzle state seems confusing, send a screenshot and a short note.</li>
+          <li><strong>Bug reports:</strong> include what you tapped just before the issue appeared.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Privacy</h2>
+        <p>
+          For details about how the app handles information, see the
+          <a href="https://mansonplus.github.io/sudoku&amp;chill/privacypolicy/">Privacy Policy</a>.
+        </p>
+      </section>
+    </main>
+  </article>
+</body>
+</html>
